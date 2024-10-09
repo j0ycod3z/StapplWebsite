@@ -328,6 +328,10 @@ span{
 .about-content{
     text-align: center;
 }
+.about-content span{
+    color: var(--main-color);
+    font-weight: bold;
+}
 
 .about-content h3{
     font-size: 2.6rem;
@@ -436,6 +440,10 @@ span{
     padding-top: .5rem ;
 }
 
+.roadmap-content .content p  span{
+    color: var(--text-color);
+}
+
 .projects{
     min-height: auto;
     padding-bottom: 7rem;
@@ -538,6 +546,9 @@ transition: .5s;
 }
 .projects-column:nth-child(3) .project-content .progress:nth-child(3) .bar span{
     width: 0%;
+}
+.projects-column:nth-child(3) .project-content .progress:nth-child(4) .bar span{
+    width: 100%;
 }
 
 .contact{
